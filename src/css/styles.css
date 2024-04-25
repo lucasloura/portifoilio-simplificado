@@ -6,7 +6,6 @@ html {
 body {
 	font-family: "Poppins", sans-serif;
 	margin: 0 auto;
-	max-width: 1150px;
 	background: repeating-linear-gradient(to bottom right, #252525, #222222 15%, #252525 10%);
 	background-size: 120% 120%;
 	background-color: #252525;
@@ -17,6 +16,8 @@ body {
 	justify-content: space-between;
 	align-items: center;
 	padding: 20px 17px;
+	max-width: 1150px;
+	margin: 0 auto;
 }
 
 .cabecalho .logo {
@@ -92,6 +93,8 @@ body {
 	align-items: center;
 	gap: 50px;
 	justify-content: space-between;
+	max-width: 1150px;
+	margin: 0 auto;
 }
 
 .home .informacoes {
@@ -151,11 +154,13 @@ body {
 
 .home .container-foto .foto {
 	max-width: 450px;
+	max-height: 450px;
 	border-radius: 50%;
 }
 
 .home .container-foto img {
-	width: 100%;
+	width:max-content;
+	height: max-content;
 	border-radius: 50%;
 }
 
@@ -167,6 +172,8 @@ body {
 
 .projetos {
 	padding: 30px 0 90px;
+	max-width: 1150px;
+	margin: 0 auto;
 }
 
 .projetos .titulo {
