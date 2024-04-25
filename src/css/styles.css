@@ -7,7 +7,7 @@ body {
 	font-family: "Poppins", sans-serif;
 	margin: 0 auto;
 	max-width: 1150px;
-	background: linear-gradient(150deg, #373737, #101010);
+	background: repeating-linear-gradient(to bottom right, #252525, #222222 15%, #252525 10%);
 	background-size: 120% 120%;
 	background-color: #252525;
 }
@@ -20,12 +20,12 @@ body {
 }
 
 .cabecalho .logo {
-	width: 52px;
-	height: 52px;
+	width: 48px;
+	height: 48px;
 	transition: 0.2s;
 }
 
-.cabecalho .menu .icone-tema{
+/*.cabecalho .menu .icone-tema{
 	width: 50px;
 	padding: 5px 5px;
 	transition: 0.2s;
@@ -52,7 +52,7 @@ body {
 	height: 40px;
 	width: 42px;
 	src: url("../icons/icone-tema-escuro.png");
-}
+}*/
 
 .cabecalho .menu li{
 	width: 200px;
@@ -69,13 +69,20 @@ body {
 	color: #ffffff;
 	border-radius: 50px;
 	transition: 0.2s;
+	cursor: pointer;
 }
 
 .cabecalho .menu li:hover a {
 	font-size: 21px;
 	font-weight: bold;
 	background-color: #ed3d07;
+	background: linear-gradient(to bottom right, #ed3d07, #f0663c 10%, #ed3d07);
 	transform: scale(1.01);
+}
+
+.destaque {
+	background-color: #ed3d07;
+	background: linear-gradient(to bottom right, #ed3d07, #f0663c 10%, #ed3d07);
 }
 
 .home {
@@ -126,6 +133,7 @@ body {
 
 .home .redes-sociais a:hover {
     background-color: #ed3d07;
+	background: linear-gradient(to bottom right, #ed3d07, #f0663c 10%, #ed3d07);
     transform: scale(1.1);
 }
 
@@ -151,13 +159,13 @@ body {
 }
 
 .home .foto.sombra-interna {
-	background: linear-gradient(to right, #ed3d07, #f5600a, #ffffff);
+	background: linear-gradient(to top right, #ed3d07 10%, #ed4411 10%, #f5600a, #ffffff);
 	background-size: 180% 180%;
-	animation: gradient-animation 9s ease infinite;
+	animation: gradient-animation 10s ease infinite;
 }
 
 .projetos {
-	padding: 50px 0;
+	padding: 30px 0 90px;
 }
 
 .projetos .titulo {
@@ -219,13 +227,19 @@ body {
 	background-color: #000;
 }
 
+.projetos .container-btn-mostrar-projetos{
+	width: 100%;
+	height: 50px;
+	justify-content: center;
+	padding: 5px 5px;
+}
 .projetos .btn-mostrar-projetos {
-	background: none;
-	border: 1px solid #fff;
-	border-radius: 15px;
-	color: #fff;
+	background-color: #ed3d07;
+	background: linear-gradient(to bottom right, #ed3d07, #f0663c 10%, #ed3d07);
+	color: #ffffff;
+	border-radius: 50px;
 	width: 180px;
-	padding: 20px;
+	padding: 10px 20px;
 	font-size: 18px;
 	font-weight: 600;
 	margin: 0 auto;
@@ -233,11 +247,16 @@ body {
 	justify-content: center;
 	align-items: center;
 	cursor: pointer;
+	transition: 0.2s;
+	text-transform: capitalize;
 }
 
 .projetos .btn-mostrar-projetos:hover {
-	background-color: #f5600a;
-	transition: 0.3s;
+	font-size: 19px;
+	font-weight: bold;
+	background-color: #ed3d07;
+	background: linear-gradient(to bottom right, #ed3d07, #f0663c 10%, #ed3d07);
+	transform: scale(1.01);
 }
 
 .projetos .btn-mostrar-projetos.remover {
