@@ -1,38 +1,32 @@
 html {
-	color: #fff;
+	color: #ffffff;
 	scroll-behavior: smooth;
 }
 
 body {
 	font-family: "Poppins", sans-serif;
 	margin: 0 auto;
-	max-width: 1120px;
-	background: linear-gradient(150deg, #000000, #9e00ff);
+	max-width: 1150px;
+	background: linear-gradient(150deg, #373737, #101010);
 	background-size: 120% 120%;
+	background-color: #252525;
 }
 
 .cabecalho {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 30px 15px;
+	padding: 20px 17px;
 }
 
 .cabecalho .logo {
-	width: 65px;
-	height: 65px;
-	border-radius: 50%;
-	border: 2px solid #fff;
-	text-decoration: underline;
-	text-align: center;
-	line-height: 55px;
-	font-family: "Raleway", sans-serif;
+	width: 52px;
+	height: 52px;
 	transition: 0.2s;
 }
 
-.cabecalho a:hover .logo {
-	color: #9443d8;
-	border: 2px solid #9443d8;
+.cabecalho .menu li{
+	transition: 0.2s;
 }
 
 .cabecalho .menu li a {
@@ -40,17 +34,18 @@ body {
 	text-transform: capitalize;
 	padding: 10px 20px;
 	transition: 0.2s;
+	background-color: #ed3d07;
+	color: #ffffff;
+	border-radius: 50px;
 }
 
-.cabecalho .menu li a:hover {
-	background-color: #9443d8;
-	color: #fff;
-	border-radius: 50px;
+.cabecalho .menu li:hover {
+	transform: scale(1.05);
 }
 
 .home {
 	display: flex;
-	min-height: calc(100vh - 125px);
+	min-height: calc(97vh - 100px);
 	align-items: center;
 	gap: 50px;
 	justify-content: space-between;
@@ -78,26 +73,37 @@ body {
 }
 
 .home .redes-sociais {
-	display: flex;
-	gap: 20px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
 }
 
-.home .redes-sociais a i {
-	border: 1px solid #fff;
-	border-radius: 50%;
-	width: 50px;
-	height: 50px;
-	padding: 10px;
-	text-align: center;
-	font-size: 26px;
-	transition: 0.3s;
+.home .redes-sociais a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 54px;
+    height: 54px;
+	background-color: #171717;
+    border-radius: 50%;
+    transition: 0.2s;
 }
 
-.home .redes-sociais a i:hover {
-	color: #9443d8;
-	border: 1px solid #9443d8;
-	transform: scale(1.1);
+.home .redes-sociais a:hover {
+    background-color: #ed3d07;
+    transform: scale(1.1);
 }
+
+.home .redes-sociais i {
+    color: #ffffff;
+    font-size: 28px;
+    transition: 0.2s;
+}
+
+.home .redes-sociais a:hover i {
+    font-size: 32px;
+}
+
 
 .home .container-foto .foto {
 	max-width: 450px;
@@ -110,18 +116,18 @@ body {
 }
 
 .home .foto.sombra-interna {
-	background: linear-gradient(to right, #8a35c8, #18c063, #00eea2);
+	background: linear-gradient(to right, #ed3d07, #f5600a, #ffffff);
 	background-size: 180% 180%;
-	animation: gradient-animation 5s ease infinite;
+	animation: gradient-animation 9s ease infinite;
 }
 
 .projetos {
-	padding: 70px 0 70px;
+	padding: 50px 0;
 }
 
 .projetos .titulo {
 	text-align: center;
-	padding: 60px 0;
+	padding: 10px 0 30px;
 	font-size: 45px;
 	font-weight: 500;
 	text-transform: uppercase;
@@ -131,7 +137,7 @@ body {
 	display: flex;
 	gap: 20px;
 	flex-wrap: wrap;
-	margin-bottom: 20px;
+	margin: 20px 0;
 	justify-content: center;
 }
 
@@ -194,12 +200,16 @@ body {
 }
 
 .projetos .btn-mostrar-projetos:hover {
-	background-color: #9443d8;
+	background-color: #f5600a;
 	transition: 0.3s;
 }
 
 .projetos .btn-mostrar-projetos.remover {
 	display: none;
+}
+
+.final{
+	text-align: center;
 }
 
 @keyframes gradient-animation {
