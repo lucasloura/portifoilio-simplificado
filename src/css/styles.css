@@ -24,7 +24,7 @@ body {
 	height: 52px;
 	transition: 0.2s;
 }
-
+/*
 .cabecalho .menu .icone-tema{
 	width: 50px;
 	padding: 5px 5px;
@@ -52,7 +52,7 @@ body {
 	height: 40px;
 	width: 42px;
 	src: url("../icons/icone-tema-escuro.png");
-}
+}*/
 
 .cabecalho .menu li{
 	width: 200px;
