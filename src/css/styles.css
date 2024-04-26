@@ -228,6 +228,7 @@ body {
 	max-height: 500px;
 	position: relative;
 	display: none;
+	transition: 0.2s;
 }
 
 .projetos .projeto.ativo {
@@ -258,6 +259,10 @@ body {
 	opacity: 0;
 	transition: 0.3s;
 	padding: 20px;
+}
+
+.projetos .container-projetos .projeto:hover{
+	transform: scale(1.05);
 }
 
 .projetos .container-projetos .projeto:hover .informacoes-projeto {
