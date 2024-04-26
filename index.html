@@ -28,22 +28,26 @@
     </head>
     <body>
         <header class="cabecalho">
-            <img class="logo" src="./src/images/logo.png">
+            <div class="itens">
+                <div class="logo">
+                    <img src="./src/images/logo.png">
+                </div>
 
-            <nav class="menu">
-                <ul>
-                    <li class="seletor-idiomas">
-                        <select name="cmb-seletor-idiomas" id="cmb-seletor-idiomas" onchange="carregarTraducao(this.value)">
-                            <option value="pt-BR">🇧🇷 pt-BR</option>
-                            <option value="en">🇺🇸 en</option>
-                            <!--<option value="es">🇪🇸 es</option>-->
-                        </select>
-                    </li>
-                    <li class="meus-projetos">
-                        <a class="btn-meus-projetos destaque" lng-tag="meus-projetos">Meus projetos</a>
-                    </li>
-                </ul>
-            </nav>
+                <nav class="menu">
+                    <ul>
+                        <li class="seletor-idiomas">
+                            <select name="cmb-seletor-idiomas" id="cmb-seletor-idiomas" onchange="carregarTraducao(this.value)">
+                                <option value="pt-BR">🇧🇷 pt-BR</option>
+                                <option value="en">🇺🇸 en</option>
+                                <!--<option value="es">🇪🇸 es</option>-->
+                            </select>
+                        </li>
+                        <li class="meus-projetos">
+                            <a class="btn-meus-projetos destaque" lng-tag="meus-projetos">Meus projetos</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </header>
 
         <section class="home">
