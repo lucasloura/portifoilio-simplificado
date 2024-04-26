@@ -34,7 +34,7 @@ function rolarParaProjetos() {
 }
 
 function rolarParaMaisProjetos(){
-    window.scrollBy(0, 400);
+    window.scrollBy(0, 425);
 }
 
 window.onload = function() {
