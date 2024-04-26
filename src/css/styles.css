@@ -264,7 +264,7 @@ body {
 
 .projetos .projeto .ferramentas-utilizadas {
     position: absolute;
-    bottom: 11%;
+    bottom: 12.5%;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
@@ -288,8 +288,9 @@ body {
 
 .projetos .container-projetos .projeto:hover h3{
 	font-size: 16px;
-	padding-bottom: 5px;
-	padding-top: 5px;
+	padding-bottom: 7px;
+	padding-top: 7px;
+	padding-left: 17px;
 }
 
 .projetos .container-projetos .projeto:hover .informacoes-projeto {
