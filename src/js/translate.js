@@ -5,10 +5,10 @@ function carregarTraducao(idioma) {
         'es': 'es.json'
     };
 
-    const arquivoTraducao = './src/lng/' + arquivosTraducao[idioma];
+    const arquivoTraducao = `./src/lng/${arquivosTraducao[idioma]}`;
 
     if (!arquivosTraducao[idioma]) {
-        console.error('Idioma "' + idioma + '" não encontrado ou não suportado');
+        console.error(`Idioma "${idioma}" não encontrado ou não suportado`);
         return;
     }
 
@@ -36,5 +36,3 @@ function carregarTraducao(idioma) {
             console.error('Erro ao carregar traduções:', error);
         });
 }
-
-// Exemplo de uso: carrega traduções para o idioma "en" (inglês) com tag de linguagem "lng-tag"

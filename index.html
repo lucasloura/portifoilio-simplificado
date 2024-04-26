@@ -26,17 +26,24 @@
         <link rel="stylesheet" href="./src/css/styles.css" />
         <link rel="stylesheet" href="./src/css/responsive.css" />
     </head>
-    <body>
+    <body onload="carregarTraducao('pt-BR');">
         <header class="cabecalho">
             <img class="logo" src="./src/images/logo.png">
 
             <nav class="menu">
                 <ul>
                     <!--<li>
-                        <img class="icone-tema" src="./src/icons/icone-tema-escuro.png">
+                        <img class="icone-tema" src="./src/icons/icone-tema-escuro.png" height="32">
                     </li> -->
-                    <li>
-                        <a class="btn-meus-projetos destaque" lng-tag="meus-projetos" onclick="carregarTraducao('en');">Meus projetos</a>
+                    <li class="seletor-idiomas">
+                        <select name="cmb-seletor-idiomas" id="cmb-seletor-idiomas" onchange="carregarTraducao(this.value)">
+                            <option value="pt-BR">🇧🇷 pt-BR</option>
+                            <option value="en">🇺🇸 en</option>
+                            <option value="es">🇪🇸 es</option>
+                        </select>
+                    </li>
+                    <li class="meus-projetos">
+                        <a class="btn-meus-projetos destaque" lng-tag="meus-projetos">Meus projetos</a>
                     </li>
                 </ul>
             </nav>
@@ -115,7 +122,7 @@
                 <div class="projeto ativo">
                     <a href="#" target="_blank">
                         <img lng-tag="capa-do-projeto"
-                            src="https://via.placeholder.com/515X800"
+                            src="https://via.placeholder.com/520X800"
                             alt="Capa do projeto"
                         />
                         <h3 lng-tag="projeto-1">Projeto 1</h3>
@@ -129,7 +136,7 @@
                 <div class="projeto ativo">
                     <a href="#" target="_blank">
                         <img lng-tag="capa-do-projeto"
-                            src="https://via.placeholder.com/515X800"
+                            src="https://via.placeholder.com/520X800"
                             alt="Capa do projeto"
                         />
                         <h3 lng-tag="projeto-2">Projeto 2</h3>
@@ -143,7 +150,7 @@
                 <div class="projeto ativo">
                     <a href="#" target="_blank">
                         <img lng-tag="capa-do-projeto"
-                            src="https://via.placeholder.com/515X800"
+                            src="https://via.placeholder.com/520X800"
                             alt="Capa do projeto"
                         />
                         <h3 lng-tag="projeto-3">Projeto 3</h3>
@@ -157,7 +164,7 @@
                 <div class="projeto ativo">
                     <a href="#" target="_blank">
                         <img lng-tag="capa-do-projeto"
-                            src="https://via.placeholder.com/515X800"
+                            src="https://via.placeholder.com/520X800"
                             alt="Capa do projeto"
                         />
                         <h3 lng-tag="projeto-4">Projeto 4</h3>
@@ -171,7 +178,7 @@
                 <div class="projeto">
                     <a href="#" target="_blank">
                         <img lng-tag="capa-do-projeto"
-                            src="https://via.placeholder.com/515X800"
+                            src="https://via.placeholder.com/520X800"
                             alt="Capa do projeto"
                         />
                         <h3 lng-tag="projeto-5">Projeto 5</h3>
@@ -185,7 +192,7 @@
                 <div class="projeto">
                     <a href="#" target="_blank">
                         <img lng-tag="capa-do-projeto"
-                            src="https://via.placeholder.com/515X800"
+                            src="https://via.placeholder.com/520X800"
                             alt="Capa do projeto"
                         />
                         <h3 lng-tag="projeto-6">Projeto 6</h3>
@@ -199,7 +206,7 @@
                 <div class="projeto">
                     <a href="#" target="_blank">
                         <img lng-tag="capa-do-projeto"
-                            src="https://via.placeholder.com/515X800"
+                            src="https://via.placeholder.com/520X800"
                             alt="Capa do projeto"
                         />
                         <h3 lng-tag="projeto-7">Projeto 7</h3>
@@ -213,7 +220,7 @@
                 <div class="projeto">
                     <a href="#" target="_blank">
                         <img lng-tag="capa-do-projeto"
-                            src="https://via.placeholder.com/515X800"
+                            src="https://via.placeholder.com/520X800"
                             alt="Capa do projeto"
                         />
                         <h3 lng-tag="projeto-8">Projeto</h3>

@@ -2,6 +2,7 @@ const botaoMostrarProjetos = document.querySelector('.btn-mostrar-projetos');
 const projetosInativos = document.querySelectorAll('.projeto:not(.ativo)');
 const botaoMeusProjetos = document.querySelector('.btn-meus-projetos');
 const secaoProjetos = document.querySelector('.projetos');
+const combobox = document.getElementById('cmb-seletor-idiomas');
 
 botaoMostrarProjetos.addEventListener('click', () => {
     esconderBotao();
@@ -33,5 +34,7 @@ function rolarParaProjetos() {
 }
 
 function rolarParaMaisProjetos(){
-    window.scrollBy(0, 350);
+    window.scrollBy(0, 400);
 }
+
+combobox.selectedIndex = 0;
