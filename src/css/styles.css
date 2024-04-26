@@ -6,6 +6,7 @@ html {
 body {
 	font-family: "Poppins", sans-serif;
 	margin: 0 auto;
+	/*background: repeating-linear-gradient(to bottom right, #ed3d07, #ed4411 15%, #ed3d07 10%); ideia de tema alternativo?*/
 	background: repeating-linear-gradient(to bottom right, #252525, #222222 15%, #252525 10%);
 	background-size: 120% 120%;
 	background-color: #252525;
