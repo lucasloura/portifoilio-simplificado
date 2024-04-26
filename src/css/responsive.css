@@ -2,7 +2,12 @@
     
     .cabecalho {
         padding: 30px;
+        display: box;
     }
+
+    .cabecalho .menu{
+        display: box;
+}
 
     .home {
         flex-direction: column;
