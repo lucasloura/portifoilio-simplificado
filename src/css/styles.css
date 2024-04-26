@@ -261,6 +261,26 @@ body {
 	padding: 20px;
 }
 
+.projetos .projeto .ferramentas-utilizadas {
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+	gap: 5px;
+}
+
+.projetos .projeto .ferramentas-utilizadas i{
+	font-size: 42px;
+}
+
+.projetos .projeto .ferramentas-utilizadas svg{
+	height: 42px;
+}
+
 .projetos .container-projetos .projeto:hover{
 	transform: scale(1.05);
 }
