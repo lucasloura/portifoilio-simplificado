@@ -36,3 +36,4 @@ function carregarTraducao(idioma) {
             console.error('Erro ao carregar traduções:', error);
         });
 }
+
