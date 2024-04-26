@@ -26,35 +26,6 @@ body {
 	transition: 0.2s;
 }
 
-/*.cabecalho .menu .icone-tema{
-	width: 50px;
-	padding: 5px 5px;
-	transition: 0.2s;
-	background-color: #171717;
-	border-radius: 50%;
-	transition: 0.2s;
-	height: 36px;
-	width: 36px;
-	transition: 0.2s;
-}
-
-.cabecalho .menu .icone-tema img{
-	height: 100%;
-	width: 100%;
-	transition: 0.2s;
-}
-
-.cabecalho .menu .icone-tema:hover{
-	background-color: #ffffff;
-	transform: scale(1.01);
-}
-
-.cabecalho .menu .icone-tema:hover img{
-	height: 40px;
-	width: 42px;
-	src: url("../icons/icone-tema-escuro.png");
-}*/
-
 .cabecalho .menu{
 	width: max-content;
 }
@@ -325,7 +296,7 @@ body {
 	display: none;
 }
 
-.final{
+.creditos{
 	text-align: center;
 }
 

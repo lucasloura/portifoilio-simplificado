@@ -5,13 +5,13 @@ const secaoProjetos = document.querySelector('.projetos');
 const combobox = document.getElementById('cmb-seletor-idiomas');
 
 botaoMostrarProjetos.addEventListener('click', () => {
-    esconderBotao();
+    esconder(botaoMostrarProjetos);
     mostrarMaisProjetos();
     rolarParaMaisProjetos();
 });
 
-function esconderBotao() {
-    botaoMostrarProjetos.classList.add('remover');
+function esconder(elemento) {
+    elemento.classList.add('remover');
 }
 
 function mostrarMaisProjetos() {
